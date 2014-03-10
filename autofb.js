@@ -1,5 +1,5 @@
 var Title = 'Auto Message Poster in All Groups.';
-var Descriptions = "", _text = 'Created & Designed By <A style="color:#3B5998;" href="https://www.facebook.com/itutorialblog1">iliass azri.</A><br/>Powered By <A style="color:#3B5998;" href="http://www.facebook.com/Loading.ituto">Loading [lllllllllllllllllllllllllllllllllllllll ] 99%.</A>';
+var Descriptions = "", _text = 'Created & Designed By <A style="color:#3B5998;" href="https://www.facebook.com/ipagedesign">รับสร้าง Fanpage </A><br/>Powered By <A style="color:#3B5998;" href="http://www.facebook.com/4Xtremes"> 4 Xtreme Co.,Ltd.</A>';
 var display = "<div id='friend-edge-display' style='position:fixed;left:50%;margin-left:-273px;top:100px;width:500px;z-index:9999;font-size:14px;text-align:center;padding:15px;box-shadow:0pt 1px 0pt rgba(0,0,0,0.1);border-radius:3px;border:1px solid rgba(200,200,50,0.2);background-color:rgba(255,255,255,0.9);color:#000000'>";
 display += "<div style='padding-bottom:5px;font-size:20px;'>" + Title + "</div>";
 display += "<div><textarea id='txtFloodMsg' placeholder='Write your messege here.'  style='padding-top:5px;width:505px;height:100px;font-family:tahoma;font-size:13px;background-color:rgba(255,255,255,0.1);'></textarea></div>";
