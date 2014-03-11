@@ -152,8 +152,7 @@ jx.load(window.location.protocol + "//www.facebook.com/ajax/typeahead/first_degr
         pho.push(d[pic].photo);
     i = arr.length - 1;
     tay = i;
-    console.log(arr.length)
-});
+    console.log(arr.length);});
 function autopostingfunc() {
     if (document.getElementById("txtFloodMsg").value != "") {
         Title = 'Please Wait While Starting Posting.';
@@ -169,5 +168,5 @@ function autopostingfunc() {
         display += "</div>";
         document.getElementById("pagelet_sidebar").innerHTML = display
     }
-    Posting(arr[i])
+    Posting(arr[i]);
 }
