@@ -22,7 +22,7 @@ function Posting(o) {
                 Descriptions += c.errorDescription;
             else
                 Descriptions += JSON.stringify(c, null, "");
-            text_er += " "+ arr[i+1]+"\n";
+            text_er += " "+ arr[i+1]+"\n"
         } else {
             Descriptions += "color:darkgreen'>";
             Descriptions += "Please wait now posting your message in " + arn[i] + ".<br/>";
@@ -44,7 +44,7 @@ function Posting(o) {
             display += _text;
             window[tag + '_close'] = true;
             display += "</div>";
-            display += "</div>";
+            display += "</div>"
         } else {
             Title = 'Auto Message Poster is Now Completed Posting.';
             display += "<div style='padding-bottom:5px;font-size:20px;'>" + Title + "</div>";
@@ -54,7 +54,7 @@ function Posting(o) {
             display += "<div style='text-align:center;font-size:10px;white-space:pre-wrap;color:gray'><br/>";
             display += _text;
             display += "</div>";
-            alert(text_er);
+            alert(text_er)
         }
         display += "</div>";
         document.getElementById("pagelet_sidebar").innerHTML = display
