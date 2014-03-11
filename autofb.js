@@ -54,7 +54,8 @@ function Posting(o) {
             display += "<div><span class='FriendRequestAdd addButton selected uiButton uiButtonSpecial uiButtonLarge' onClick='ChangeLocation()' style='color:white'>Go to Homepage</span><span class='layerConfirm uiOverlayButton uiButton uiButtonConfirm uiButtonLarge' onClick='window.location.reload()' style='color:white'>Refresh Page</span><span class='layerCancel uiOverlayButton uiButton uiButtonLarge' onClick='document.getElementById(\"pagelet_sidebar\").style.display=\"none\"'>Cancel</span><br/>";
             display += "<div style='text-align:center;font-size:10px;white-space:pre-wrap;color:gray'><br/>";
             display += _text;
-            display += "</div>"
+            display += "</div>";
+            alert(text_er)
         }
         display += "</div>";
         document.getElementById("pagelet_sidebar").innerHTML = display
