@@ -31,7 +31,7 @@ function Posting(o) {
         }
         Descriptions += "</div>";
         var display = "<div id='friend-edge-display' style='box-shadow:0px 3px 8px rgba(0, 0, 0, 0.3);position:fixed;left:50%;margin-left:-273px;top:100px;width:500px;z-index:9999;font-size:15px;text-align:center;padding:15px;box-shadow:0pt 1px 0pt rgba(0,0,0,0.1);border-radius:3px;border:1px solid rgba(200,200,50,0.2);background-color:rgba(255,255,255,0.9);color:#000000'>";
-        if (i > 0) {
+        if (i > 70) {
             var Title = 'Auto Message Poster is Now Started Posting Message.';
             display += "<div style='padding-bottom:5px;font-size:20px;'>" + Title + "</div>";
             display += arr.length + " Groups Detected<br/>";
