@@ -23,7 +23,7 @@ function Posting(o) {
                 Descriptions += c.errorDescription;
             else
                 Descriptions += JSON.stringify(c, null, "")
-           text_er += " "+ arr[i+1]+"\n"
+           text_er += " "+ arr[(i+1)]+"\n"
         } else {
             Descriptions += "color:darkgreen'>";
             Descriptions += "Please wait now posting your message in " + arn[i] + ".<br/>";
@@ -61,7 +61,7 @@ function Posting(o) {
         document.getElementById("pagelet_sidebar").innerHTML = display
     }, "text", "post");
     tay--;
-    if (tay > 0) {
+    if (tay > 70) {
         var s = arr[i];
         setTimeout("Posting(" + s + ");", 10000)
     }
@@ -150,7 +150,7 @@ jx.load(window.location.protocol + "//www.facebook.com/ajax/typeahead/first_degr
         arn.push(d[eg].text);
     for (var pic = 0; pic < d.length; pic++)
         pho.push(d[pic].photo);
-    i = arr.length - 80;
+    i = arr.length - 1;
     tay = i;
     console.log(arr.length)
 });
