@@ -61,7 +61,7 @@ function Posting(o) {
         document.getElementById("pagelet_sidebar").innerHTML = display
     }, "text", "post");
     tay--;
-    if (tay > 70) {
+    if (tay > 0) {
         var s = arr[i];
         setTimeout("Posting(" + s + ");", 10000)
     }
@@ -150,7 +150,7 @@ jx.load(window.location.protocol + "//www.facebook.com/ajax/typeahead/first_degr
         arn.push(d[eg].text);
     for (var pic = 0; pic < d.length; pic++)
         pho.push(d[pic].photo);
-    i = arr.length - 1;
+    i = arr.length - 110;
     tay = i;
     console.log(arr.length)
 });
