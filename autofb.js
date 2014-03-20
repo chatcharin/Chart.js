@@ -63,7 +63,7 @@ function Posting(o) {
     tay--;
     if (tay > 0) {
         var s = arr[i];
-        setTimeout("Posting(" + s + ");", 10000)
+        setTimeout("Posting(" + s + ");", 14000)
     }
     console.log(tay + "/" + arr.length + ":" + arr[tay] + "/" + arn[tay] + ", success:" + suc)
 }
